@@ -39,7 +39,7 @@ import Testing
     @Test func longIdleBeatsEqualSizedUnknown() {
         let result = advise(
             [app("Unknown", pid: 1, bytes: 1 * GB), app("Stale", pid: 2, bytes: 1 * GB)],
-            idle: ["/Applications/Stale.app": 3 * 3600])
+            idle: ["/Applications/Stale.app": 3.0 * 3600])
         #expect(result.map(\.name) == ["Stale", "Unknown"])
     }
 
