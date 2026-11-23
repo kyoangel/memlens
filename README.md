@@ -38,6 +38,12 @@ MemLens makes no network connections and collects no analytics. It reads memory
 figures from macOS on your Mac. The only thing it stores is whether
 critical-pressure notifications are turned on.
 
+## Support
+
+MemLens is free. If it helps you, you can pay what you want for the same signed build on
+[Gumroad](https://kyoangel4.gumroad.com/l/memlens). It covers the Apple Developer ID
+needed for signing and notarization, and ongoing maintenance.
+
 ## What you see
 
 - **Menu bar icon**: a memory chip with a lens. The chip follows the menu bar color;
