@@ -13,8 +13,12 @@ memory, and which app to quit for the biggest win.
 With [Homebrew](https://brew.sh):
 
 ```sh
+brew tap kyoangel/tap
+brew trust kyoangel/tap
 brew install --cask kyoangel/tap/memlens
 ```
+
+Homebrew asks you to trust third-party taps once; `brew trust` does that.
 
 Or download `MemLens-<version>.dmg` from the
 [latest release](https://github.com/kyoangel/memlens/releases/latest), open it and drag
